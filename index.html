@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Materi TKA – Genre Teks Bahasa Inggris</title>
+<style>
+:root{--bg:#f5f7fb;--ink:#161c2e;--mut:#5c6584;--pri:#1d3fae;--acc:#b45309;--card:#fff;--line:#dde3f2;--tint:#e8edfb;--tint2:#fdeedd;--ok:#15803d;--okbg:#d9f5e3;--bad:#b91c1c;--badbg:#fde2e2;--onpri:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10141f;--ink:#eceef7;--mut:#9aa2c0;--pri:#8fa8ff;--acc:#f0ad5e;--card:#1a2030;--line:#2c3350;--tint:#1f2740;--tint2:#2e2316;--ok:#5fd68c;--okbg:#12331f;--bad:#ff8f8f;--badbg:#3d1717;--onpri:#10141f}}
+:root[data-theme="dark"]{--bg:#10141f;--ink:#eceef7;--mut:#9aa2c0;--pri:#8fa8ff;--acc:#f0ad5e;--card:#1a2030;--line:#2c3350;--tint:#1f2740;--tint2:#2e2316;--ok:#5fd68c;--okbg:#12331f;--bad:#ff8f8f;--badbg:#3d1717;--onpri:#10141f}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:880px;margin:0 auto;padding:18px 16px 50px}
+h1{font-size:1.15rem;margin:0;color:var(--pri)}
+header{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
+nav{display:flex;gap:6px}
+button{font:inherit;cursor:pointer;border-radius:10px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);padding:9px 14px}
+button:hover{border-color:var(--pri)}
+button:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+button.on,button.p{background:var(--pri);color:var(--onpri);border-color:var(--pri);font-weight:600}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.stage{background:var(--card);border:1.5px solid var(--line);border-radius:16px;padding:22px}
+.stage h2{margin:0 0 4px;color:var(--pri);font-size:1.4rem}
+.sfun{background:var(--tint);border-radius:12px;padding:12px 16px;margin:12px 0}
+.sfun b{color:var(--pri)}
+h3{color:var(--acc);font-size:1rem;margin:18px 0 8px}
+ol,ul{margin:4px 0;padding-left:1.3em}
+li{margin:5px 0}
+.ex{background:var(--tint2);border-radius:12px;padding:14px 16px;margin:8px 0}
+.ex p{margin:0 0 8px}
+.ex b{color:var(--acc)}
+.an{font-size:.95rem;color:var(--mut)}
+.q{font-size:1.2rem;font-weight:700;margin:0 0 14px;line-height:1.35}
+.opt{display:block;width:100%;text-align:left;margin:8px 0;padding:12px 15px}
+.opt.ok{background:var(--okbg);border-color:var(--ok);color:var(--ok);font-weight:600}
+.opt.no{background:var(--badbg);border-color:var(--bad);color:var(--bad)}
+.fb{margin:12px 0;padding:12px 15px;border-radius:12px;background:var(--tint)}
+.trk{height:6px;background:var(--line);border-radius:3px;margin:0 0 16px;overflow:hidden}
+.trk i{display:block;height:100%;background:var(--acc)}
+.tag{color:var(--mut);font-size:.9rem}
+.score{font-size:3rem;font-weight:800;color:var(--pri);line-height:1}
+.rv{border-top:1.5px solid var(--line);padding:12px 0}
+.rv p{margin:3px 0}
+label{display:block;margin:12px 0 4px;font-weight:600}
+input[type=text]{font:inherit;padding:10px 12px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);width:100%}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>Genre Teks Bahasa Inggris · Materi TKA</h1>
+<nav><button id="tM" class="on">Materi</button><button id="tQ">Kuis 50 soal</button></nav>
+</header>
+<section id="vM">
+<div class="tabs" id="gTabs"></div>
+<div id="mStage" class="stage"></div>
+</section>
+<section id="vQ" hidden></section>
+</main>
+<script>
+var G = [
+{n:"Descriptive Text", sf:"To describe and reveal a particular person, place, or thing by detailing its specific features, qualities, or characteristics.",
+ st:[["Identification","Introduces and identifies the specific phenomenon, person, place, or object to be described."],
+     ["Description","Details the subject's parts, qualities, features, or characteristics."]],
+ lf:["Uses Simple Present Tense.","Uses adjectives and classifiers in nominal groups to describe attributes.","Uses attributive and identifying processes (linking verbs)."],
+ ex:{t:"My Favorite Library", parts:[
+     ["Identification","The National Central Library is my favorite place to study. It is located in the heart of the city and is known for its serene atmosphere."],
+     ["Description","The library has three spacious floors with huge glass windows that let in natural sunlight. On the ground floor, there are rows of comfortable wooden desks and ergonomic chairs. The walls are lined with thousands of classic and modern books neatly categorized on tall oak shelves. A quiet reading corner with soft armchairs offers a cozy environment for visitors. The air is always fresh, smelling faintly of old paper and coffee from the adjacent cafe."]]},
+ an:"Identification mengenalkan objek (perpustakaan) dan lokasinya; Description merinci ciri fisik & sensorinya. Kata kerja simple present: is, has, are lined, offers. Adjektiva: favorite, serene, spacious, cozy."},
+
+{n:"Narrative Text", sf:"To tell a story or retell past events in order to amuse, entertain, or convey a moral value to the readers.",
+ st:[["Orientation","Introduces the main participants/characters and sets the time and place of the story."],
+     ["Complication","Describes the rising crisis or main problem that the participants encounter."],
+     ["Resolution","Shows how the participants solve the complication/crisis, resulting in a happy or sad ending."],
+     ["Re-orientation / Coda (Optional)","Contains a closing remark, moral lesson, or evaluation."]],
+ lf:["Uses Simple Past Tense.","Uses action verbs / process verbs.","Uses temporal connectives / time signals (a long time ago, then, before, after).","Uses specific participants and direct/indirect speech."],
+ ex:{t:"The Wolf and the Stork", parts:[
+     ["Orientation","A long, long time ago, the wolf and the stork were friends. One day, the wolf asked the stork to come to his house to eat."],
+     ["Complication","When the stork arrived, the wolf put two bowls of soup on the table. The wolf ate his soup quickly, but the stork could not eat because his beak was too long. The stork went home hungry while the wolf laughed."],
+     ["Resolution","Then the stork invited the wolf to dinner and served soup in two tall pitchers. The stork ate easily with his long beak, but the wolf could not fit his big mouth into the pitcher and went home hungry."],
+     ["Re-orientation / Coda","The wolf and the stork have never been friends ever since."]]},
+ an:"Konflik muncul saat stork tak bisa makan dari mangkuk dangkal (Complication); stork membalas dengan kendi tinggi (Resolution). Kata kerja past tense: were, asked, arrived, invited. Konektor waktu: a long time ago, when, then."},
+
+{n:"Report Text (Information Report)", sf:"To present factual information about a subject (animals, objects, public places, natural phenomena) as a result of systematic observation and analysis.",
+ st:[["General Classification","States the general classification or definition of the phenomenon or subject being discussed."],
+     ["Description","Systematically describes the subject's parts, qualities, behavior, habits, or functions in detail."]],
+ lf:["Uses Simple Present Tense.","Focuses on general participants (e.g., Sharks, Sharks as a class) rather than specific individuals.","Uses technical/scientific vocabulary related to the subject.","Uses conditional or logical connections."],
+ ex:{t:"Sharks", parts:[
+     ["General Classification","Sharks are a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head. They inhabit ocean waters across the globe."],
+     ["Description","Most sharks are carnivorous predators with multiple rows of sharp, replaceable teeth. They possess acute sensory systems, including a keen sense of smell that allows them to detect tiny concentrations of blood miles away. Although sharks are often feared as human-eaters, unprovoked shark attacks on humans are remarkably rare."]]},
+ an:"General Classification mengenalkan Sharks sebagai kelas biologis umum; Description merinci sifat, kebiasaan makan, dan indra. Partisipan umum: Sharks, carnivorous predators. Istilah teknis: elasmobranch, cartilaginous skeleton, pectoral fins."},
+
+{n:"Recount Text", sf:"To retell events, actions, or personal experiences happening in the past in a chronological sequence to inform or entertain.",
+ st:[["Orientation","Provides background context regarding who was involved, what happened, where, when, and why."],
+     ["Series of Events","Details the sequence of events chronologically as they occurred in time."],
+     ["Reorientation (Optional)","Contains a closing statement, personal comment, or evaluation of the experience."]],
+ lf:["Uses Simple Past Tense.","Focuses on specific/proper human participants (e.g., I, my friend, we).","Uses temporal connectives / time signals (first, then, next, after that, finally).","Uses action verbs."],
+ ex:{t:"Visiting Bali", parts:[
+     ["Orientation","There were so many places to see in Bali that my friend decided to join the tours to see as much as possible. He stayed in Kuta on arrival and spent the first three days swimming and surfing on Kuta beach."],
+     ["Events","On the day of the tour, he was ready. My friend and his group drove through the mountains to Singaraja, a busy town lined with old Dutch houses. Then they visited Ubud before returning very late in the evening to Kuta."],
+     ["Reorientation","It was an exhausting day, but my friend felt extremely happy because he explored so many beautiful historical sites."]]},
+ an:"Orientation menjawab who/where/what; Events menceritakan urutan perjalanan; Reorientation memberi kesan pribadi. Past tense: decided, stayed, drove, visited. Konektor waktu: first, then, late in the evening."},
+
+{n:"Hortatory Exposition Text", sf:"To persuade the reader or listener that something should or should not happen, be done, or be the case by presenting arguments and concluding with a recommendation.",
+ st:[["Thesis","Statement or announcement of an issue of concern and the writer's position."],
+     ["Arguments","Reasons for concern, supported by evidence, leading toward a recommendation."],
+     ["Recommendation","Statement of what ought or ought not to happen or be done based on the given arguments."]],
+ lf:["Uses Simple Present Tense.","Uses modal auxiliaries / adverbs (should, ought to, had better).","Uses temporal connectives (firstly, secondly).","Uses abstract nouns and evaluative words (valuable, important, trustworthy)."],
+ ex:{t:"The Importance of Reading", parts:[
+     ["Thesis","I personally think that reading is a very important activity in our life. Why do I say so?"],
+     ["Argument 1","Firstly, by reading we can get a lot of knowledge about many things in the world such as science, technology, sports, arts, and culture."],
+     ["Argument 2","Secondly, by reading we can get news and information about current events around the globe."],
+     ["Recommendation","From the facts above, it is obvious that everyone should read books regularly to gain knowledge and entertainment. Therefore, parents and schools ought to encourage children to build a daily reading habit."]]},
+ an:"Thesis menyatakan opini penulis; Arguments memberi dua alasan pendukung; Recommendation menutup dengan saran konkret (should, ought to). Konektor: Firstly, Secondly, Therefore."},
+
+{n:"Analytical Exposition Text", sf:"To persuade the reader or listener that an idea/topic is an important matter and to analyze the issue to show that the thesis/opinion is correct through logical arguments.",
+ st:[["Thesis","Introduces the topic, indicates the writer's point of view, and previews the arguments."],
+     ["Arguments","Outlines main points and elaborates each point with reasoning and evidence."],
+     ["Reiteration","Restates the writer's position to strengthen the thesis as a conclusion without recommending actions."]],
+ lf:["Uses Simple Present Tense.","Uses relational processes (linking verbs: be, seem, sound).","Uses internal and causal conjunctions (because, therefore, moreover, since).","Uses generic participants."],
+ ex:{t:"Cars Should Be Banned in the City", parts:[
+     ["Thesis","Cars should be banned in the city. As we all know, cars create pollution, cause road deaths, and create noise."],
+     ["Argument 1","Firstly, cars contribute to most of the air pollution in the world. They emit gases that trigger respiratory illnesses such as asthma and lung cancer."],
+     ["Argument 2","Secondly, the city is very busy. Cars commonly hit pedestrians, making automobiles one of the biggest killers on urban roads."],
+     ["Argument 3","Thirdly, cars are noisy. Living in a city full of traffic makes it hard to sleep at night or concentrate on work."],
+     ["Reiteration","In conclusion, cars should be banned from the city for the reasons listed above."]]},
+ an:"Thesis memperkenalkan 3 isu (polusi, keselamatan, kebisingan); Arguments menjelaskan tiap isu; Reiteration menegaskan kembali tanpa saran baru. Beda dari Hortatory: Analytical berakhir dengan Reiteration, bukan Recommendation."},
+
+{n:"Procedure Text", sf:"To describe or explain how something is done, achieved, or made through a sequence of actions or steps.",
+ st:[["Goal / Aim","States the intended objective or outcome (often the title)."],
+     ["Materials / Equipment","Lists the items, ingredients, or tools required to complete the task."],
+     ["Steps","Outlines the sequence of instructions or actions in chronological order."]],
+ lf:["Uses imperative sentences / commands (Cut, Mix, Pour, Do not boil).","Uses action verbs (turn, put, mix, stir).","Uses temporal connectives (first, second, then, next, finally).","Uses adverbial phrases for precise details of time, manner, or distance."],
+ ex:{t:"How to Make Fresh Lemonade", parts:[
+     ["Goal","How to Make Fresh Lemonade"],
+     ["Materials","2 large lemons; 3 tablespoons of sugar; 2 cups of cold water; Ice cubes and a strainer"],
+     ["Steps","First, squeeze the juice out of the two lemons into a pitcher using a citrus press. Next, add the 3 tablespoons of sugar into the fresh lemon juice. Then, pour 2 cups of cold water into the pitcher and stir well until the sugar dissolves completely. Finally, add ice cubes and serve fresh in a glass."]]},
+ an:"Goal tertulis di judul; Materials berupa daftar bahan; Steps berurutan dengan imperative (squeeze, add, pour, stir, serve) dan konektor waktu (First, Next, Then, Finally)."},
+
+{n:"Argumentative Text", sf:"To present reasoned claims, evidence, and logical conclusions about a controversial issue or topic in order to convince or persuade an audience.",
+ st:[["Opening Statement / Thesis","Establishes context, introduces the core issue, and states the central claim or sub-claims."],
+     ["Body Paragraphs / Supporting Arguments","Presents sub-claims backed by concrete reasoning, evidence, and examples."],
+     ["Concluding Statement","Summarizes the evidence provided and reinforces the final stance or conclusion."]],
+ lf:["Uses Simple Present Tense.","Uses logical and causal connectives (because, hence, therefore, thus, consequently).","Uses evidence markers and concrete examples (for example, such as, this proves that).","Uses abstract nouns and reasoning structures."],
+ ex:{t:"Promoting Diversity in Workplace Teams", parts:[
+     ["Opening Statement / Thesis","Organizations today operate in an increasingly globalized world. Encouraging diverse demographic perspectives within workplace teams provides essential innovation and improved problem-solving capabilities."],
+     ["Supporting Arguments","Diversity brings varied cognitive approaches to complex problems. Because individuals draw from different experiences, groups evaluate wider choices; hence, decisions become more well-rounded. For instance, incorporating diverse functional experts—such as software engineers, designers, and market researchers—in product design ensures fewer blind spots during development."],
+     ["Conclusion","In summary, cultivating workplace diversity is not merely a social ideal, but a key driver of group performance and organizational effectiveness."]]},
+ an:"Opening Statement menyatakan klaim utama; Supporting Arguments memberi bukti & contoh konkret (for instance, such as); Conclusion merangkum & menegaskan sikap akhir. Konektor logis: because, hence, in summary."}
+];
+
+var Q = [
+["What is the social function of a descriptive text?",["To describe a particular person, place, or thing in detail","To tell a story with a moral lesson","To persuade readers to take action"],0,"Descriptive text menggambarkan orang/tempat/benda tertentu secara rinci."],
+["Which part of a descriptive text introduces the specific object?",["Identification","Description","Orientation"],0,"Identification memperkenalkan objek yang akan dideskripsikan."],
+["In \u2018My Favorite Library\u2019, what does the Identification paragraph mention?",["Only the library's smell","The library's name and location","The number of books in detail"],1,"Identification menyebut nama perpustakaan (National Central Library) dan lokasinya."],
+["Which tense is mainly used in descriptive text?",["Simple Present Tense","Simple Past Tense","Simple Future Tense"],0,"Descriptive text menggunakan Simple Present Tense."],
+["Which word below is an adjective describing the library?",["borrowed","cozy","arrived"],1,"\u2018Cozy\u2019 adalah kata sifat yang menggambarkan suasana perpustakaan."],
+["\u201cThe walls are lined with thousands of books.\u201d What kind of process is \u2018are lined\u2019?",["An action verb","An attributive/identifying process (linking verb)","A modal verb"],1,"\u2018Are lined\u2019 berfungsi sebagai attributive process yang menjelaskan keadaan subjek."],
+
+["What is the social function of a narrative text?",["To entertain or convey a moral value through a story","To give step-by-step instructions","To present factual classification"],0,"Narrative text bertujuan menghibur atau menyampaikan pesan moral lewat cerita."],
+["Which structure introduces the characters and setting of a story?",["Orientation","Complication","Resolution"],0,"Orientation memperkenalkan tokoh dan latar cerita."],
+["In \u2018The Wolf and the Stork\u2019, what is the Complication?",["The stork cannot eat from the shallow bowl","The wolf gets sick","They become best friends forever"],0,"Complication muncul saat stork tidak bisa makan dari mangkuk dangkal."],
+["What tense is used in narrative text?",["Simple Present Tense","Simple Past Tense","Present Perfect Tense"],1,"Narrative text menggunakan Simple Past Tense."],
+["Which element shows the time sequence in a narrative text?",["Temporal connectives","Adjectives","Technical terms"],0,"Temporal connectives (then, before, after) menandai urutan waktu."],
+["What does the Re-orientation/Coda part usually contain?",["A list of materials","A moral lesson or closing remark","Technical vocabulary"],1,"Re-orientation/Coda berisi pesan moral atau penutup cerita."],
+
+["What is the social function of a report text?",["To present factual information from systematic observation","To tell a personal story","To persuade readers about an issue"],0,"Report text menyajikan informasi faktual hasil observasi sistematis."],
+["Which structure states the general classification of the subject?",["General Classification","Orientation","Thesis"],0,"General Classification menyatakan klasifikasi umum subjek."],
+["Report text generally focuses on:",["Specific individual participants","General participants, e.g. Sharks as a class","Personal experience"],1,"Report text berfokus pada partisipan umum, bukan individu tertentu."],
+["In the \u2018Sharks\u2019 text, what is part of the General Classification?",["Sharks are a group of elasmobranch fish","Sharks like to swim near a particular beach","A shark named Bruce"],0,"General Classification menjelaskan Sharks sebagai kelompok elasmobranch fish."],
+["What type of vocabulary is typically used in report text?",["Imperative commands","Technical/scientific vocabulary","Temporal connectives"],1,"Report text banyak memakai istilah teknis/ilmiah."],
+["What is the main difference between Report and Descriptive text?",["Report describes specific one-time objects","Report describes general participants; Descriptive describes specific participants","There is no difference between them"],1,"Report membahas partisipan umum (kelas), sedangkan Descriptive membahas objek spesifik tertentu."],
+
+["What is the social function of a recount text?",["To retell past events in chronological order","To persuade the reader","To classify a phenomenon"],0,"Recount text menceritakan kembali peristiwa masa lalu secara kronologis."],
+["Which structure gives background info on who, what, where, when?",["Orientation","Series of Events","Reorientation"],0,"Orientation memberikan latar belakang peristiwa."],
+["In \u2018Visiting Bali\u2019, what happened during the Events part?",["He drove to Singaraja and visited Ubud","He stayed home the whole time","He wrote a scientific report"],0,"Pada bagian Events, ia mengunjungi Singaraja lalu Ubud."],
+["What tense dominates recount text?",["Simple Present Tense","Simple Past Tense","Simple Future Tense"],1,"Recount text didominasi Simple Past Tense."],
+["Which connective type signals the order of events in recount text?",["Causal connectives","Temporal connectives","Evaluative words"],1,"Konektor temporal (first, then, finally) menandai urutan peristiwa."],
+["What is a key structural difference between Narrative and Recount text?",["Narrative has a Complication/conflict; Recount does not","Recount uses Simple Present Tense","Narrative never has an ending"],0,"Narrative memiliki Complication (konflik), sedangkan Recount hanya menceritakan rangkaian peristiwa tanpa konflik."],
+
+["What is the social function of hortatory exposition text?",["To persuade that something should or should not be done","To report scientific facts","To entertain with a story"],0,"Hortatory exposition membujuk pembaca agar melakukan/tidak melakukan sesuatu."],
+["Which part concludes with what ought to be done?",["Thesis","Arguments","Recommendation"],2,"Recommendation menyatakan apa yang seharusnya dilakukan."],
+["What modal is commonly used for advice in hortatory exposition?",["should / ought to","is / are","was / were"],0,"Modal should/ought to umum dipakai untuk memberi saran."],
+["In \u2018The Importance of Reading\u2019, what is the writer's Thesis?",["Reading is a very important activity","Reading is a waste of time","Books are too expensive to buy"],0,"Thesis menyatakan bahwa membaca adalah aktivitas yang sangat penting."],
+["Which connective type is used to list arguments (Firstly, Secondly)?",["Causal connectives","Sequential/temporal connectives","Evidence markers"],1,"Firstly/Secondly adalah konektor sekuensial untuk mengurutkan argumen."],
+["What is the goal of the Recommendation part?",["To state what should/shouldn't be done based on arguments","To introduce the topic for the first time","To summarize without suggesting any action"],0,"Recommendation memberi saran konkret berdasarkan argumen yang diberikan."],
+
+["What is the social function of analytical exposition text?",["To persuade that a topic is important through logical arguments","To retell a personal story","To give instructions step by step"],0,"Analytical exposition meyakinkan pembaca lewat argumen logis bahwa suatu isu penting."],
+["Which part restates the position WITHOUT recommending any action?",["Thesis","Arguments","Reiteration"],2,"Reiteration menegaskan kembali posisi penulis tanpa memberi rekomendasi baru."],
+["In \u2018Cars Should Be Banned in the City\u2019, how many arguments are given?",["Two","Three","Four"],1,"Teks memberikan tiga argumen: polusi, kecelakaan, dan kebisingan."],
+["What is a key difference between Hortatory and Analytical Exposition?",["Hortatory ends with a recommendation; Analytical ends with reiteration","They are exactly identical in structure","Analytical exposition always uses past tense"],0,"Hortatory ditutup dengan Recommendation, sedangkan Analytical ditutup dengan Reiteration (tanpa saran)."],
+["Which words are examples of relational processes (linking verbs) used in analytical exposition?",["be, seem, sound","run, jump, swim","squeeze, pour, mix"],0,"Relational process memakai linking verbs seperti be, seem, sound."],
+["Which connective shows causal reasoning in analytical exposition?",["because / therefore","first / next","if / unless"],0,"Because/therefore menunjukkan hubungan sebab-akibat antar argumen."],
+
+["What is the social function of procedure text?",["To explain how something is done or made through steps","To argue a controversial position","To describe a specific place in detail"],0,"Procedure text menjelaskan cara melakukan/membuat sesuatu melalui langkah-langkah."],
+["Which part lists the ingredients/tools needed?",["Goal","Materials / Equipment","Steps"],1,"Materials/Equipment berisi daftar bahan atau alat yang dibutuhkan."],
+["What sentence type is mainly used in the Steps part?",["Imperative sentences (commands)","Declarative sentences","Interrogative sentences"],0,"Steps ditulis dalam kalimat imperative/perintah, seperti squeeze, add, pour."],
+["In \u2018How to Make Fresh Lemonade\u2019, what is done first?",["Add sugar","Squeeze the lemon juice","Add ice cubes"],1,"Langkah pertama adalah memeras jus lemon ke dalam pitcher."],
+["Which connective type sequences the steps (First, Next, Then, Finally)?",["Causal connectives","Temporal connectives","Evaluative words"],1,"Konektor temporal mengurutkan langkah-langkah secara kronologis."],
+["What kind of phrase gives precise details of time, manner, or distance in procedure text?",["Adverbial phrases","Abstract nouns","Modal auxiliaries"],0,"Adverbial phrases memberi detail presisi, misalnya \u2018into a pitcher\u2019, \u2018in a glass\u2019."],
+
+["What is the social function of argumentative text?",["To present reasoned claims and evidence to convince an audience","To retell a personal past experience","To give step-by-step instructions"],0,"Argumentative text menyajikan klaim beralasan dan bukti untuk meyakinkan pembaca."],
+["Which part establishes the central claim of an argumentative text?",["Opening Statement / Thesis","Body Paragraphs","Concluding Statement"],0,"Opening Statement/Thesis menyatakan klaim utama di awal teks."],
+["What are \u2018for instance\u2019 and \u2018such as\u2019 examples of?",["Evidence markers","Temporal connectives","Modal auxiliaries"],0,"\u2018For instance\u2019 dan \u2018such as\u2019 adalah penanda bukti/contoh konkret."],
+["In \u2018Promoting Diversity in Workplace Teams\u2019, what does diversity provide according to the thesis?",["Essential innovation and improved problem-solving","Lower office costs","Faster daily commute"],0,"Thesis menyatakan keragaman memberi inovasi penting dan pemecahan masalah yang lebih baik."],
+["Which connective shows logical/causal reasoning (because, hence)?",["Logical/causal connectives","Sequential connectives","Modal connectives"],0,"Because/hence menunjukkan hubungan logis-sebab-akibat antar gagasan."],
+["What does the Concluding Statement do in argumentative text?",["Introduces a brand-new argument","Summarizes evidence and reinforces the final stance","Lists the materials needed"],1,"Concluding Statement merangkum bukti dan menegaskan kembali sikap akhir penulis."],
+
+["Which pair of text types BOTH mainly use Simple Present Tense as a language feature?",["Narrative & Recount","Descriptive & Report","Procedure & Recount"],1,"Descriptive dan Report sama-sama menggunakan Simple Present Tense."],
+["Which text type follows the structure Thesis \u2013 Arguments \u2013 Recommendation?",["Hortatory Exposition","Analytical Exposition","Argumentative Text"],0,"Struktur Thesis-Arguments-Recommendation adalah ciri khas Hortatory Exposition."]
+];
+
+var $=function(id){return document.getElementById(id)};
+function E(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+
+var gi=0;
+function renderGTabs(){
+  var h="";
+  G.forEach(function(g,i){ h+="<button data-i='"+i+"' class='"+(i===gi?"on":"")+"'>"+E(g.n)+"</button>"; });
+  $("gTabs").innerHTML=h;
+  Array.prototype.forEach.call($("gTabs").children,function(b){ b.onclick=function(){ gi=+this.getAttribute("data-i"); renderGTabs(); renderMateri(); }; });
+}
+function renderMateri(){
+  var g=G[gi], h="<h2>"+E(g.n)+"</h2>";
+  h+="<div class='sfun'><b>Social Function:</b> "+E(g.sf)+"</div>";
+  h+="<h3>Generic Structure</h3><ol>";
+  g.st.forEach(function(s){ h+="<li><b>"+E(s[0])+":</b> "+E(s[1])+"</li>"; });
+  h+="</ol>";
+  h+="<h3>Language Focus</h3><ul>";
+  g.lf.forEach(function(s){ h+="<li>"+E(s)+"</li>"; });
+  h+="</ul>";
+  h+="<h3>Example Text: "+E(g.ex.t)+"</h3><div class='ex'>";
+  g.ex.parts.forEach(function(p){ h+="<p><b>"+E(p[0])+":</b> "+E(p[1])+"</p>"; });
+  h+="</div>";
+  h+="<h3>Text Analysis</h3><p class='an'>"+E(g.an)+"</p>";
+  $("mStage").innerHTML=h;
+}
+
+function tab(m){ $("vM").hidden=m!=="M"; $("vQ").hidden=m!=="Q"; $("tM").className=m==="M"?"on":""; $("tQ").className=m==="Q"?"on":""; if(m==="Q" && !qs.on) intro(); }
+$("tM").onclick=function(){ tab("M"); };
+$("tQ").onclick=function(){ tab("Q"); };
+
+var qs={on:false,o:[],n:0,sc:0,bad:[],nm:"",kl:""};
+function intro(){
+  qs.on=false;
+  $("vQ").innerHTML="<div class='stage'><h2 style='margin-top:0'>Kuis 50 soal</h2><p>Soal mencakup 8 genre teks: Descriptive, Narrative, Report, Recount, Hortatory Exposition, Analytical Exposition, Procedure, dan Argumentative.</p><label for='nm'>Nama</label><input type='text' id='nm'><label for='kl'>Kelas</label><input type='text' id='kl'><p><button class='p' id='st'>Mulai mengerjakan</button></p></div>";
+  $("st").onclick=function(){ qs.nm=$("nm").value.trim(); qs.kl=$("kl").value.trim(); start(false); };
+}
+function start(shuf){
+  var a=Q.map(function(_,i){return i;});
+  if(shuf) a.sort(function(){return Math.random()-.5;});
+  qs.o=a; qs.n=0; qs.sc=0; qs.bad=[]; qs.on=true; ask();
+}
+function ask(){
+  var k=qs.o[qs.n], q=Q[k], pct=qs.n/Q.length*100;
+  var h="<div class='stage'><div class='tag'>Soal "+(qs.n+1)+" dari "+Q.length+" \u00b7 Skor "+qs.sc+"</div><div class='trk'><i style='width:"+pct+"%'></i></div><p class='q'>"+E(q[0])+"</p>";
+  q[1].forEach(function(o,j){ h+="<button class='opt' data-j='"+j+"'><b>"+"ABC".charAt(j)+".</b> "+E(o)+"</button>"; });
+  h+="<div id='fb'></div></div>";
+  $("vQ").innerHTML=h;
+  var bs=document.querySelectorAll(".opt");
+  bs.forEach(function(b){ b.onclick=function(){ pick(k,+b.getAttribute("data-j"),bs); }; });
+}
+function pick(k,j,bs){
+  var q=Q[k], r=j===q[2];
+  if(r) qs.sc++; else qs.bad.push(k);
+  bs.forEach(function(b,x){ b.disabled=true; if(x===q[2]) b.className="opt ok"; else if(x===j) b.className="opt no"; });
+  var last=qs.n===Q.length-1;
+  $("fb").innerHTML="<div class='fb'><b>"+(r?"Benar.":"Belum tepat.")+"</b> "+E(q[3])+"</div><button class='p' id='nq'>"+(last?"Lihat hasil":"Soal berikutnya")+"</button>";
+  $("nq").focus();
+  $("nq").onclick=function(){ qs.n++; last?result():ask(); };
+}
+function result(){
+  var p=Math.round(qs.sc/Q.length*100);
+  var m=p>=80?"Sangat baik. Pemahamanmu tentang genre teks sudah kuat.":p>=60?"Cukup baik. Baca ulang materi genre yang masih salah.":"Pelajari lagi materinya di tab Materi, lalu coba kuis ini sekali lagi.";
+  var h="<div class='stage'><h2 style='margin-top:0'>Hasil kuis</h2>";
+  if(qs.nm||qs.kl) h+="<p><b>"+E(qs.nm)+"</b>"+(qs.nm&&qs.kl?" \u00b7 ":"")+E(qs.kl)+"</p>";
+  h+="<div class='score'>"+qs.sc+" / "+Q.length+"</div><p>Nilai "+p+". "+m+"</p><div style='display:flex;gap:8px;flex-wrap:wrap'><button class='p' id='rq'>Ulangi kuis (acak)</button><button id='rm'>Kembali ke materi</button></div>";
+  if(qs.bad.length){
+    h+="<h3 style='margin-top:20px'>Soal yang perlu diulang</h3>";
+    qs.bad.forEach(function(k){ var q=Q[k]; h+="<div class='rv'><p><b>"+E(q[0])+"</b></p><p style='color:var(--ok)'>Jawaban benar: "+E(q[1][q[2]])+"</p><p class='an'>"+E(q[3])+"</p></div>"; });
+  }
+  $("vQ").innerHTML=h+"</div>";
+  $("rq").onclick=function(){ start(true); };
+  $("rm").onclick=function(){ tab("M"); };
+}
+
+renderGTabs(); renderMateri();
+</script>
+</body>
+</html>
